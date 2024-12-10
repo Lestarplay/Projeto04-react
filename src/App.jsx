@@ -1,11 +1,12 @@
-import React from 'react';
-import Conversordemoeda from './assets/components/Conversordemoeda'; 
+import './App.css'
+import ConversorDeMoedas from './components/ConversorDeMoedas'
 function App() {
   return (
-    <div className="App">
-      <Conversordemoeda />
-    </div>
+    <>
+    <ConversorDeMoedas />
+    </>
+   
   );
 }
 
-export default App;
+export default App
